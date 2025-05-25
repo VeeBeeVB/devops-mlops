@@ -56,8 +56,11 @@ To begin, ensure the following tools are installed on your system:
 3. **Setup Python Virtual Environment using UV:**
 
    ```bash
+   Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+   irm get.scoop.sh | iex
+   scoop install uv
    uv venv --python python3.11
-   source .venv/bin/activate
+   .venv/Scripts/activate.bat
    ```
 
 4. **Install dependencies:**
