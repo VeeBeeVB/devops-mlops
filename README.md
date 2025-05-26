@@ -97,9 +97,9 @@ Access the MLflow UI at [http://localhost:5555](http://localhost:5555)
 If you prefer an interactive experience, launch JupyterLab with:
 
 ```bash
-uv python -m jupyterlab
-# or
+uv pip install jupyterlab
 python -m jupyterlab
+```
 ```
 
 ---
