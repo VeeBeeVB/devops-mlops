@@ -57,9 +57,9 @@ To begin, ensure the following tools are installed on your system:
 
    ```bash
    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-   irm get.scoop.sh | iex
-   scoop install uv
-   uv venv --python python3.11
+   irm get.scoop.sh | iex   ---Optional
+   scoop install uv      ---Optional
+   uv venv --python 3.11
    .venv/Scripts/activate.bat
    ```
 
