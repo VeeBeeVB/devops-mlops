@@ -111,6 +111,7 @@ python -m jupyterlab
 Clean and preprocess the raw housing dataset:
 
 ```bash
+pip install pandas
 python src/data/run_processing.py   --input data/raw/house_data.csv   --output data/processed/cleaned_house_data.csv
 ```
 
